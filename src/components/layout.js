@@ -15,10 +15,10 @@ const Layout = ({ children }) => {
           <main className={ layoutStyles.main }>
             {children}
           </main>
-
-          <Footer />
         </div>
       </div>
+
+      <Footer />
     </>
   )
 }
