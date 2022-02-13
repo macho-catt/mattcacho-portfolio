@@ -1,21 +1,20 @@
 import * as React from 'react'
 import Head from './head'
 import Nav from './nav'
+import { layoutStyles } from '../styles'
 
 const Layout = ({ children }) => {
   return (
     <>
       <Head />
 
-      <div id="root" className="lg:grid lg:grid-cols-6 lg:relative font-sans">
+      <div id="root" className={ layoutStyles.root }>
         <Nav />
         {/* div to take the space of the fixed nav bar */}
         <div className="lg:col-span-1" />
         <div className="lg:col-span-5">
-          <main>
-            <div className="flex flex-col justify-center bg-blue-100">
-              {children}
-            </div>
+          <main className={ layoutStyles.main }>
+            {children}
           </main>
 
           <footer className="bg-otherPurple">Footer</footer>

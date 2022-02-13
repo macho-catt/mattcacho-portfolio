@@ -1,15 +1,16 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { navLinks } from '../config'
+import { navStyles } from '../styles'
 
 const Nav = () => {
   return (
-    <nav className="lg:col-span-1 lg:fixed lg:top-0 lg:left-0 lg:box-border lg:w-1/6 h-screen z-1 bg-midnightBlue text-white">
+    <nav className={ navStyles.nav }>
 
-      <ul className="lg:flex lg:flex-col lg:justify-center lg:gap-5 lg:h-full text-center">
+      <ul className={ navStyles.ul }>
         {
           navLinks.map(({ name, url }, i) => (
-            <Link to={url} key={i} className="hover:text-midnightBlue hover:bg-white">
+            <Link to={url} key={i} className={ navStyles.liLink }>
               <li key={i}>
                 { name }
               </li>
