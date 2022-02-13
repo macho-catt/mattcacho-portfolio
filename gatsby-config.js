@@ -1,9 +1,11 @@
+const config= require('./src/config')
+
 module.exports = {
     siteMetadata: {
-      title: `mattcacho-portfolio`,
-        siteUrl: `https://www.yourdomain.tld`,
+      title: `Matt Cacho`,
+      siteUrl: `https://www.mattcacho.com`
     },
     plugins: [
-
+      'gatsby-plugin-postcss',
     ]
 }
