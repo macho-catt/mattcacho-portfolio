@@ -9,7 +9,7 @@ const Nav = () => {
       <ul className="lg:flex lg:flex-col lg:justify-center lg:gap-5 lg:h-full text-center">
         {
           navLinks.map(({ name, url }, i) => (
-            <Link to={url} className="hover:text-midnightBlue hover:bg-white">
+            <Link to={url} key={i} className="hover:text-midnightBlue hover:bg-white">
               <li key={i}>
                 { name }
               </li>

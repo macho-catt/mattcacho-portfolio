@@ -8,6 +8,9 @@ module.exports = {
         'midnightBlue': '#1A1C28',
         'otherPurple': '#c084fc'
       },
+      fontFamily: {
+        'roboto': ['Roboto']
+      }
     },
   },
   plugins: [],

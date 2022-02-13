@@ -1,14 +1,13 @@
 import * as React from 'react'
+import Head from './head'
 import Nav from './nav'
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
   return (
     <>
-      {/* <head>
-        <title>{pageTitle}</title>
-      </head> */}
+      <Head />
 
-      <div id="root" className="lg:grid lg:grid-cols-6 lg:relative">
+      <div id="root" className="lg:grid lg:grid-cols-6 lg:relative font-sans">
         <Nav />
         {/* div to take the space of the fixed nav bar */}
         <div className="lg:col-span-1" />
