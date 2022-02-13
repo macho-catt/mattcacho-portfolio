@@ -1,6 +1,5 @@
 import * as React from 'react'
-import Head from './head'
-import Nav from './nav'
+import { Head, Nav, Footer } from '../components'
 import { layoutStyles } from '../styles'
 
 const Layout = ({ children }) => {
@@ -17,7 +16,7 @@ const Layout = ({ children }) => {
             {children}
           </main>
 
-          <footer className="bg-otherPurple">Footer</footer>
+          <Footer />
         </div>
       </div>
     </>
