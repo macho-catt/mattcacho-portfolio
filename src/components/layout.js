@@ -11,11 +11,9 @@ const Layout = ({ children }) => {
         <Nav />
         {/* div to take the space of the fixed nav bar */}
         <div className="lg:col-span-1" />
-        <div className="lg:col-span-5">
-          <main className={ layoutStyles.main }>
-            {children}
-          </main>
-        </div>
+        <main className={ layoutStyles.main }>
+          {children}
+        </main>
       </div>
 
       <Footer />

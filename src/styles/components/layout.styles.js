@@ -6,11 +6,12 @@ const layoutStyles = {
   ].join(' '),
 
   main: [
-    'flex',
-    'flex-col',
-    'justify-center',
-    'bg-blue-100'
-  ]
+    'lg:col-span-5',
+    'lg:flex',
+    'lg:flex-col',
+    'lg:justify-center',
+    'bg-blue-300'
+  ].join(' ')
 }
 
 export default layoutStyles

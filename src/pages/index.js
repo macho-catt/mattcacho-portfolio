@@ -1,10 +1,10 @@
 import * as React from 'react'
-import Layout from '../components/layout'
+import { Layout, Home, About, Skills, Experience, Projects, Contact } from '../components'
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="Matt Cacho">
-      <h2>Home</h2>
+      <Home />
       <h2>About</h2>
       <h2>Skills (sometimes included with about)</h2>
       <h2>Experience</h2>

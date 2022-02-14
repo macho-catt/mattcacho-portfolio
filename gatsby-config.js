@@ -11,6 +11,24 @@ module.exports = {
     },
     plugins: [
       `gatsby-plugin-postcss`,
-      `gatsby-plugin-react-helmet`
+      `gatsby-plugin-react-helmet`,
+      `gatsby-plugin-image`,
+      `gatsby-plugin-sharp`,
+      `gatsby-plugin-mdx`,
+      `gatsby-transformer-sharp`,
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `home`,
+          path: `${__dirname}/content/sections`
+        }
+      },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `content`,
+          path: `${__dirname}/content`
+        }
+      }
     ]
 }
