@@ -2,7 +2,9 @@ const layoutStyles = {
   root: [
     'lg:grid',
     'lg:grid-cols-6',
-    'lg:relative'
+    'lg:relative',
+    // 'bg-midnightBlue',
+    // 'text-white',
   ].join(' '),
 
   main: [

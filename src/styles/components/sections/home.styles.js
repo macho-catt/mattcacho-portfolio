@@ -18,14 +18,14 @@ const homeStyles = {
     // 'lg:w-1/3',
     'lg:h-1/3',
     'lg:ml-10',
-    'bg-blue-500'
+    // 'bg-blue-500'
   ].join(' '),
 
   name: [
     'lg:text-8xl',
   ].join(' '),
 
-  location: [
+  h2: [
     'lg:text-3xl'
   ].join(' '),
 }

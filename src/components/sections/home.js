@@ -32,12 +32,12 @@ const Home = () => {
       icon: github_icon
     }
   ]
-  console.log(socialsArr)
+  // console.log(socialsArr)
   return(
     <section className={ homeStyles.section }>
       <div className={ homeStyles.container }>
         <h1 className={ homeStyles.name }>{ name }</h1>
-        <h2 className={ homeStyles.location }>{ location }</h2>
+        <h2 className={ homeStyles.h2 }>{ location }</h2>
         <MDXRenderer>
           { body }
         </MDXRenderer>
@@ -56,20 +56,8 @@ const Home = () => {
   )
 }
 
-// const query = graphql`
-//   query HomeMDX {
-//     mdx(slug: {regex: "/home/"}) {
-//       frontmatter {
-//         name
-//         location
-//       }
-//       body
-//     }
-//   }  
-// `
-
 const query = graphql`
-  query MDX {
+  query HomeMDX {
     home: mdx(slug: {regex: "/home/"}) {
       frontmatter {
         name
