@@ -26,10 +26,10 @@ module.exports = {
       name: 'Contact',
       url: '/#contact'
     },
-    {
-      name: 'Misc',
-      url: '/#misc'
-    },
+    // {
+    //   name: 'Misc',
+    //   url: '/#misc'
+    // },
     {
       name: 'Resume',
       url: '/#resume'
