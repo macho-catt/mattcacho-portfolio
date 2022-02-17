@@ -1,4 +1,4 @@
-const aboutStyles = {
+const skillStyles = {
   section: [
     'lg:flex',
     'lg:flex-col',
@@ -18,20 +18,6 @@ const aboutStyles = {
     'lg:gap-20',
     'lg:h-full',
     'lg:ml-10',
-    // 'bg-blue-500'
-  ].join(' '),
-
-  body: [
-    'lg:flex',
-    'lg:flex-row',
-    'lg:gap-20'
-  ].join(' '),
-
-  bodyContent: [
-    'lg:w-1/3',
-    'lg:flex',
-    'lg:flex-col',
-    'lg:gap-2'
   ].join(' '),
 
   h2: [
@@ -39,19 +25,24 @@ const aboutStyles = {
     'text-bumblebee'
   ].join(' '),
 
-  squareImg: [
+  body: [
     'lg:flex',
-    'lg:place-self-center',
-    'lg:h-96',
-    'lg:w-96'
+    'lg:flex-row',
+    'lg:gap-28',
+    'lg:h-1/3',
+    // 'bg-blue-500'
   ].join(' '),
 
-  img: [
-    'lg:grayscale',
-    'hover:grayscale-0',
-    'max-h-full',
-    'max-w-full',
+  col: [
+    'lg:flex',
+    'lg:flex-col',
+    'lg:gap-2',
+  ].join(' '),
+
+  h3: [
+    'lg:text-xl',
+    'text-teal'
   ].join(' '),
 }
 
-export default aboutStyles
+export default skillStyles

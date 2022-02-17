@@ -6,7 +6,7 @@ const IndexPage = () => {
     <Layout pageTitle="Matt Cacho">
       <Home />
       <About />
-      <h2>Skills (sometimes included with about)</h2>
+      <Skills />
       <h2>Experience</h2>
       <h2>portfolio / projects</h2>
       <h2>misc</h2>

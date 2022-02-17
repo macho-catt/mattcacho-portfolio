@@ -5,7 +5,7 @@ const footerStyles = {
     'justify-center',
     'bg-midnightBlue',
     'text-white',
-    'text-center'
+    'text-center',
   ].join(' '),
 
   footerLink: [

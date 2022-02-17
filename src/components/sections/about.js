@@ -24,13 +24,13 @@ const About = () => {
               { body }
             </MDXRenderer>
           </div>
-          <picture className={ aboutStyles.squareImg }>
+          <div className={ aboutStyles.squareImg }>
             <GatsbyImage 
               image={ image }
               alt={ alt }
               className={ aboutStyles.img }
             />
-          </picture>
+          </div>
         </div>
       </div>
     </section>

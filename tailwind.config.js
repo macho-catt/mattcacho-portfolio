@@ -6,7 +6,9 @@ module.exports = {
     extend: {
       colors: {
         'midnightBlue': '#1A1C28',
-        'otherPurple': '#c084fc'
+        'royalBlue': '#072ac8',
+        'teal': '#1ad6f9',
+        'bumblebee': '#ffc600',
       },
       fontFamily: {
         'roboto': ['Roboto']

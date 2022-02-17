@@ -11,7 +11,7 @@ const layoutStyles = {
     'lg:col-span-5',
     'lg:flex',
     'lg:flex-col',
-    'lg:justify-center',
+    'lg:place-content-center',
     'bg-blue-300'
   ].join(' ')
 }

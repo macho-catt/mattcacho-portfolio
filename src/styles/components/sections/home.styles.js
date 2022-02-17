@@ -26,7 +26,8 @@ const homeStyles = {
   ].join(' '),
 
   h2: [
-    'lg:text-3xl'
+    'lg:text-3xl',
+    'text-bumblebee'
   ].join(' '),
 }
 
