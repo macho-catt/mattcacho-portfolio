@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={ footerStyles.footer }>
       {/* <div className="w-1/3"> */}
-        <Link to="https://github.com/macho-catt" target="_blank" className={ footerStyles.footerLink }>
+        <Link to="https://github.com/macho-catt/mattcacho-portfolio" target="_blank" className={ footerStyles.footerLink }>
           <div>
             Designed and built by Matt Cacho
           </div>
