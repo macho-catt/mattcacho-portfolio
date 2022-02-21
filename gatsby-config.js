@@ -5,7 +5,7 @@ module.exports = {
       title: `Matt Cacho`,
       titleTemplate: `%s - A website`,
       description: `Matt Cacho is a software engineer.`,
-      image: ``,
+      image: `/home.png`,
       siteUrl: `https://www.mattcacho.com`,
       twitterUsername: `@MattCacho`
     },
