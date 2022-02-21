@@ -3,3 +3,12 @@ node_modules
 public
 static
 README.md
+.gitignore
+.prettier.json
+.eslintrc.json
+package.json
+package-lock.json
+gatsby-browser.json
+gatsby-config.js
+postcss.config.js
+tailwind.config.js

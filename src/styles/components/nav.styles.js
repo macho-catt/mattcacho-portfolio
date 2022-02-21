@@ -26,4 +26,4 @@ const navStyles = {
   ].join(' ')
 }
 
-export default navStyles
+export default navStyles;
