@@ -7,9 +7,10 @@ README.md
 .prettier.json
 .eslintrc.json
 .eslintignore
+.prettierrc.json
 package.json
 package-lock.json
-gatsby-browser.json
+gatsby-browser.js
 gatsby-config.js
 postcss.config.js
 tailwind.config.js
