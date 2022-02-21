@@ -3,8 +3,8 @@ const layoutStyles = {
     'lg:grid',
     'lg:grid-cols-6',
     'lg:relative',
-    // 'bg-midnightBlue',
-    // 'text-white',
+    'bg-midnightBlue',
+    'text-white',
   ].join(' '),
 
   main: [
@@ -12,7 +12,6 @@ const layoutStyles = {
     'lg:flex',
     'lg:flex-col',
     'lg:place-content-center',
-    'bg-blue-300'
   ].join(' ')
 }
 

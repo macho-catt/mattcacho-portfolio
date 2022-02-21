@@ -4,7 +4,6 @@ const expStyles = {
     'lg:flex-col',
     'lg:justify-center',
     'lg:content-center',
-    // 'lg:h-screen',
     'lg:w-full',
     'bg-midnightBlue',
     'text-white',

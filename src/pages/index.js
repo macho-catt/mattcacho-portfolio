@@ -10,7 +10,7 @@ const IndexPage = () => {
       <Experience />
       {/* <h2>portfolio / projects</h2> */}
       {/* <h2>misc</h2> */}
-      <h2>contact</h2>
+      <Contact />
     </Layout>
   )
 }
