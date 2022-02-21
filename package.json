@@ -2,8 +2,12 @@
   "name": "mattcacho-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "mattcacho-portfolio",
-  "author": "macho-catt",
+  "description": "Personal Website",
+  "author": "Matthew Cacho",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macho-catt/mattcacho-portfolio"
+  },
   "keywords": [
     "gatsby"
   ],
@@ -13,7 +17,14 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public",
+    "lint": "eslint --fix './src/**/*.{js,jsx}'",
+    "prettier": "prettier --write ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier && npm run lint"
+    }
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -33,8 +44,17 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "gatsby-plugin-postcss": "^5.6.0",
+    "husky": "^7.0.4",
     "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
     "tailwindcss": "^3.0.18"
   }
 }
