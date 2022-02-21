@@ -11,7 +11,7 @@ module.exports = {
         'bumblebee': '#ffc600',
       },
       fontFamily: {
-        'roboto': ['Roboto']
+        'roboto': ['Roboto', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Arial', 'sans-serif']
       }
     },
   },

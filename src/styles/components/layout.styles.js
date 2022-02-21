@@ -5,6 +5,7 @@ const layoutStyles = {
     'lg:relative',
     'bg-midnightBlue',
     'text-white',
+    'font-roboto'
   ].join(' '),
 
   main: [
