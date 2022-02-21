@@ -7,7 +7,7 @@ const navStyles = {
     'lg:box-border',
     'lg:w-1/6',
     'lg:hover:shadow-2xl',
-    'h-screen',
+    'lg:h-screen',
     'z-1',
   ].join(' '),
 

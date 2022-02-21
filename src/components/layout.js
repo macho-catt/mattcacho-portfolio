@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
       <div id="root" className={ layoutStyles.root }>
         <Nav />
         {/* div to take the space of the fixed nav bar */}
-        <div className="lg:col-span-1" />
+        <div className={ layoutStyles.placeholder } />
         <main className={ layoutStyles.main }>
           {children}
         </main>
