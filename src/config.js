@@ -32,7 +32,7 @@ module.exports = {
     // },
     {
       name: 'Resume',
-      url: '/#resume'
+      url: '../static/MattCachoResume.pdf'
     }
   ],
   

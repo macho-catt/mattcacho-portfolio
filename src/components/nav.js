@@ -9,13 +9,25 @@ const Nav = () => {
 
       <ul className={ navStyles.ul }>
         {
-          navLinks.map(({ name, url }, i) => (
-            <Link to={url} key={i} className={ navStyles.liLink }>
-              <li key={i}>
-                { name }
-              </li>
-            </Link>
-          ))
+          navLinks.map(({ name, url }, i) => {
+            if (name !== "Resume") {
+              return (
+              <Link to={url} key={i} className={ navStyles.liLink }>
+                <li key={i}>
+                  { name }
+                </li>
+              </Link>
+              )
+            } else {
+              return (
+                <a href="/MattCachoResume.pdf" key={i} className={ navStyles.liLink } target="_blank" rel="noopener noreferrer">
+                  <li key={i}>
+                    { name }
+                  </li>
+                </a>
+              )
+            }
+          })
         }
       </ul>
     </nav>
