@@ -8,9 +8,7 @@ const footerStyles = {
     'text-center',
   ].join(' '),
 
-  footerLink: [
-    'hover:text-gray-400'
-  ].join(' ')
-}
+  footerLink: ['hover:text-gray-400'].join(' '),
+};
 
-export default footerStyles
+export default footerStyles;

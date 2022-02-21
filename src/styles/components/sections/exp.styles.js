@@ -5,7 +5,7 @@ const expStyles = {
     'lg:justify-center',
     'lg:content-center',
     'lg:w-full',
-    'box-border'
+    'box-border',
   ].join(' '),
 
   container: [
@@ -17,7 +17,7 @@ const expStyles = {
     'lg:gap-6',
     'lg:ml-10',
     // 'bg-blue-500'
-  ].join(' ')
-}
+  ].join(' '),
+};
 
-export default expStyles
+export default expStyles;

@@ -5,21 +5,12 @@ const layoutStyles = {
     'font-roboto',
     'lg:grid',
     'lg:grid-cols-6',
-    'lg:relative'
+    'lg:relative',
   ].join(' '),
 
-  placeholder: [
-    'sm:hidden',
-    'lg:block',
-    'lg:col-span-1'
-  ].join(' '),
+  placeholder: ['sm:hidden', 'lg:block', 'lg:col-span-1'].join(' '),
 
-  main: [
-    'flex',
-    'flex-col',
-    'place-content-center',
-    'lg:col-span-5'
-  ].join(' ')
-}
+  main: ['flex', 'flex-col', 'place-content-center', 'lg:col-span-5'].join(' '),
+};
 
-export default layoutStyles
+export default layoutStyles;

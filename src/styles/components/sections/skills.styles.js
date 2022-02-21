@@ -6,7 +6,7 @@ const skillStyles = {
     'lg:content-center',
     'lg:h-screen',
     'lg:w-full',
-    'box-border'
+    'box-border',
   ].join(' '),
 
   container: [
@@ -18,10 +18,7 @@ const skillStyles = {
     'lg:ml-10',
   ].join(' '),
 
-  h2: [
-    'lg:text-3xl',
-    'text-bumblebee'
-  ].join(' '),
+  h2: ['lg:text-3xl', 'text-bumblebee'].join(' '),
 
   body: [
     'lg:flex',
@@ -31,16 +28,9 @@ const skillStyles = {
     // 'bg-blue-500'
   ].join(' '),
 
-  col: [
-    'lg:flex',
-    'lg:flex-col',
-    'lg:gap-2',
-  ].join(' '),
+  col: ['lg:flex', 'lg:flex-col', 'lg:gap-2'].join(' '),
 
-  h3: [
-    'lg:text-xl',
-    'text-teal'
-  ].join(' '),
-}
+  h3: ['lg:text-xl', 'text-teal'].join(' '),
+};
 
-export default skillStyles
+export default skillStyles;

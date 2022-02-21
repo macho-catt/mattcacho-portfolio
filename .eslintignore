@@ -6,7 +6,7 @@ README.md
 .gitignore
 .prettier.json
 .eslintrc.json
-.eslintignore
+.prettierignore
 package.json
 package-lock.json
 gatsby-browser.json

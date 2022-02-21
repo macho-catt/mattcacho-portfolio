@@ -1,7 +1,5 @@
-import * as React from 'react'
+// import * as React from 'react'
 
-const Projects = () => {
+const Projects = () => {};
 
-}
-
-export default Projects
+export default Projects;

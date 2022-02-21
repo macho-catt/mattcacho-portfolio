@@ -6,7 +6,7 @@ const aboutStyles = {
     'lg:content-center',
     'lg:h-screen',
     'lg:w-full',
-    'box-border'
+    'box-border',
   ].join(' '),
 
   container: [
@@ -19,37 +19,19 @@ const aboutStyles = {
     // 'bg-blue-500'
   ].join(' '),
 
-  body: [
-    'lg:flex',
-    'lg:flex-row',
-    'lg:gap-20'
-  ].join(' '),
+  body: ['lg:flex', 'lg:flex-row', 'lg:gap-20'].join(' '),
 
-  bodyContent: [
-    'lg:w-1/3',
-    'lg:flex',
-    'lg:flex-col',
-    'lg:gap-2'
-  ].join(' '),
+  bodyContent: ['lg:w-1/3', 'lg:flex', 'lg:flex-col', 'lg:gap-2'].join(' '),
 
-  h2: [
-    'lg:text-3xl',
-    'text-bumblebee'
-  ].join(' '),
+  h2: ['lg:text-3xl', 'text-bumblebee'].join(' '),
 
-  squareImg: [
-    'lg:flex',
-    'lg:place-self-center',
-    'lg:h-96',
-    'lg:w-96'
-  ].join(' '),
+  squareImg: ['lg:flex', 'lg:place-self-center', 'lg:h-96', 'lg:w-96'].join(
+    ' '
+  ),
 
-  img: [
-    'lg:grayscale',
-    'hover:grayscale-0',
-    'max-h-full',
-    'max-w-full',
-  ].join(' '),
-}
+  img: ['lg:grayscale', 'hover:grayscale-0', 'max-h-full', 'max-w-full'].join(
+    ' '
+  ),
+};
 
-export default aboutStyles
+export default aboutStyles;

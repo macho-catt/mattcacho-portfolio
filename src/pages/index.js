@@ -1,7 +1,14 @@
-import * as React from 'react'
-import { Layout, Home, About, Skills, Experience, Contact } from '../components'
+import * as React from 'react';
+import {
+  Layout,
+  Home,
+  About,
+  Skills,
+  Experience,
+  Contact,
+} from '../components';
 
-const IndexPage = () => {
+function IndexPage() {
   return (
     <Layout pageTitle="Matt Cacho">
       <Home />
@@ -12,7 +19,7 @@ const IndexPage = () => {
       {/* <h2>misc</h2> */}
       <Contact />
     </Layout>
-  )
+  );
 }
 
-export default IndexPage
+export default IndexPage;

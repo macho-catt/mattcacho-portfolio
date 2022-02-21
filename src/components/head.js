@@ -1,15 +1,29 @@
-import * as React from 'react'
-import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
-import { useLocation } from '@reach/router'
-import { useStaticQuery, graphql } from 'gatsby'
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+import { useLocation } from '@reach/router';
+import { useStaticQuery, graphql } from 'gatsby';
 
 // https://www.gatsbyjs.com/docs/add-seo-component/
 
-const Head = ({ title, description, image, article }) => {
+function Head({ title, description, image, article }) {
+  const { pathname } = useLocation();
 
-  const { pathname } = useLocation()
-  const { site } = useStaticQuery(query)
+  const query = graphql`
+    query SEO {
+      site {
+        siteMetadata {
+          defaultTitle: title
+          titleTemplate
+          defaultDescription: description
+          siteUrl
+          defaultImage: image
+          twitterUsername
+        }
+      }
+    }
+  `;
+  const { site } = useStaticQuery(query);
 
   const {
     defaultTitle,
@@ -17,15 +31,15 @@ const Head = ({ title, description, image, article }) => {
     defaultDescription,
     siteUrl,
     defaultImage,
-    twitterUsername
-  } = site.siteMetadata
+    twitterUsername,
+  } = site.siteMetadata;
 
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
-    url: `${siteUrl}${pathname}`
-  }
+    url: `${siteUrl}${pathname}`,
+  };
 
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
@@ -58,43 +72,30 @@ const Head = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
-      
+
       {/* Import Roboto font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+        rel="stylesheet"
+      />
     </Helmet>
-  )
+  );
 }
 
-const query = graphql`
-  query SEO {
-    site {
-      siteMetadata {
-        defaultTitle: title
-        titleTemplate
-        defaultDescription: description
-        siteUrl
-        defaultImage: image
-        twitterUsername
-      }
-    }
-  }
-`
-
-export default Head
+export default Head;
 
 Head.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
-  article: PropTypes.bool
-}
+  article: PropTypes.bool,
+};
 
 Head.defaultProps = {
   title: null,
   description: null,
   image: null,
-  article: false
-}
+  article: false,
+};

@@ -17,13 +17,10 @@ const navStyles = {
     'lg:justify-center',
     'lg:gap-5',
     'lg:h-full',
-    'text-center'
+    'text-center',
   ].join(' '),
 
-  liLink: [
-    'hover:text-midnightBlue',
-    'hover:bg-white'
-  ].join(' ')
-}
+  liLink: ['hover:text-midnightBlue', 'hover:bg-white'].join(' '),
+};
 
 export default navStyles;

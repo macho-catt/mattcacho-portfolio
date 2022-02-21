@@ -1,20 +1,9 @@
 const panelStyles = {
-  container: [
-    'lg:flex',
-    'lg:flex-col',
-    'lg:gap-4'
-  ].join(' '),
+  container: ['lg:flex', 'lg:flex-col', 'lg:gap-4'].join(' '),
 
-  h2: [
-    'lg:text-3xl',
-    'text-bumblebee'
-  ].join(' '),
+  h2: ['lg:text-3xl', 'text-bumblebee'].join(' '),
 
-  ul: [
-    'lg:flex',
-    'lg:flex-col',
-    'lg:gap-10',
-  ].join(' '),
+  ul: ['lg:flex', 'lg:flex-col', 'lg:gap-10'].join(' '),
 
   li: [
     'lg:flex',
@@ -28,10 +17,7 @@ const panelStyles = {
     // 'bg-blue-800',
   ].join(' '),
 
-  h3: [
-    'lg:text-xl',
-    'text-teal'
-  ].join(' '),
+  h3: ['lg:text-xl', 'text-teal'].join(' '),
 
   liBody: [
     'lg:flex',
@@ -43,14 +29,9 @@ const panelStyles = {
     // 'bg-blue-800',
   ].join(' '),
 
-  h4: [
-    'lg:text-lg',
-    'text-white'
-  ].join(' '),
+  h4: ['lg:text-lg', 'text-white'].join(' '),
 
-  h6: [
-    'lg:text-sm',
-  ].join(' '),
+  h6: ['lg:text-sm'].join(' '),
 
   // Creates a properly aligned bulleted list
   liBullet: [
@@ -58,8 +39,8 @@ const panelStyles = {
     'lg:pl-4',
     'lg:before:content-["•"]',
     'lg:before:absolute',
-    'lg:before:left-0'
+    'lg:before:left-0',
   ].join(' '),
-}
+};
 
-export default panelStyles
+export default panelStyles;

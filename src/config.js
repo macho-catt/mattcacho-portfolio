@@ -4,19 +4,19 @@ module.exports = {
   navLinks: [
     {
       name: 'Home',
-      url: '/'
+      url: '/',
     },
     {
       name: 'About',
-      url: '/#about'
+      url: '/#about',
     },
     {
       name: 'Skills',
-      url: '/#skills'
+      url: '/#skills',
     },
     {
       name: 'Experience',
-      url: '/#experience'
+      url: '/#experience',
     },
     // {
     //   name: 'Projects',
@@ -24,7 +24,7 @@ module.exports = {
     // },
     {
       name: 'Contact',
-      url: '/#contact'
+      url: '/#contact',
     },
     // {
     //   name: 'Misc',
@@ -32,8 +32,7 @@ module.exports = {
     // },
     {
       name: 'Resume',
-      url: '../static/MattCachoResume.pdf'
-    }
+      url: '../static/MattCachoResume.pdf',
+    },
   ],
-  
-}
+};

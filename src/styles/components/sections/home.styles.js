@@ -6,7 +6,7 @@ const homeStyles = {
     'lg:content-center',
     'lg:h-screen',
     'lg:w-full',
-    'box-border'
+    'box-border',
   ].join(' '),
 
   container: [
@@ -19,14 +19,9 @@ const homeStyles = {
     // 'bg-blue-500'
   ].join(' '),
 
-  name: [
-    'lg:text-8xl',
-  ].join(' '),
+  name: ['lg:text-8xl'].join(' '),
 
-  h2: [
-    'lg:text-3xl',
-    'text-bumblebee'
-  ].join(' '),
-}
+  h2: ['lg:text-3xl', 'text-bumblebee'].join(' '),
+};
 
-export default homeStyles
+export default homeStyles;

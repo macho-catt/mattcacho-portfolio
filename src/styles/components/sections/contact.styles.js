@@ -17,13 +17,9 @@ const contactStyles = {
     'lg:ml-10',
   ].join(' '),
 
-  h1: [
-    'lg:text-6xl',
-  ].join(' '),
+  h1: ['lg:text-6xl'].join(' '),
 
-  h1Link: [
-    'hover:text-bumblebee',
-  ].join(' '),
-}
+  h1Link: ['hover:text-bumblebee'].join(' '),
+};
 
-export default contactStyles
+export default contactStyles;
