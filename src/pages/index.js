@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Layout, Home, About, Skills, Experience, Projects, Contact } from '../components'
+import { Layout, Home, About, Skills, Experience, Contact } from '../components'
 
 const IndexPage = () => {
   return (
