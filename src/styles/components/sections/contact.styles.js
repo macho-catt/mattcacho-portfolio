@@ -6,7 +6,6 @@ const contactStyles = {
     'lg:content-center',
     'lg:h-screen',
     'lg:w-full',
-    'text-white',
     'box-border',
   ].join(' '),
 

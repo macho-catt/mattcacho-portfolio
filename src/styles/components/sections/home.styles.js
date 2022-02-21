@@ -6,8 +6,6 @@ const homeStyles = {
     'lg:content-center',
     'lg:h-screen',
     'lg:w-full',
-    'bg-midnightBlue',
-    'text-white',
     'box-border'
   ].join(' '),
 

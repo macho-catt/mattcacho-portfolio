@@ -5,8 +5,6 @@ const expStyles = {
     'lg:justify-center',
     'lg:content-center',
     'lg:w-full',
-    'bg-midnightBlue',
-    'text-white',
     'box-border'
   ].join(' '),
 

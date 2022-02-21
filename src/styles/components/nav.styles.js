@@ -9,8 +9,6 @@ const navStyles = {
     'lg:hover:shadow-2xl',
     'h-screen',
     'z-1',
-    'bg-midnightBlue',
-    'text-white'
   ].join(' '),
 
   ul: [
