@@ -1,6 +1,9 @@
 const navStyles = {
   nav: [
     'lg:col-span-1',
+    'lg:flex',
+    'lg:flex-col',
+    'lg:place-content-center',
     'lg:fixed',
     'lg:top-0',
     'lg:left-0',
@@ -16,7 +19,6 @@ const navStyles = {
     'lg:flex-col',
     'lg:justify-center',
     'lg:gap-5',
-    'lg:h-full',
     'text-center',
   ].join(' '),
 

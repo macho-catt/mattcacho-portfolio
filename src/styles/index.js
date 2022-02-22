@@ -9,3 +9,4 @@ export { default as skillStyles } from './components/sections/skills.styles';
 export { default as expStyles } from './components/sections/exp.styles';
 export { default as panelStyles } from './components/panel.styles';
 export { default as contactStyles } from './components/sections/contact.styles';
+export { default as resumeStyles } from './components/resume.styles';

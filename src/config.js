@@ -30,9 +30,9 @@ module.exports = {
     //   name: 'Misc',
     //   url: '/#misc'
     // },
-    {
-      name: 'Resume',
-      url: '../static/MattCachoResume.pdf',
-    },
+    // {
+    //   name: 'Resume',
+    //   url: '../static/MattCachoResume.pdf',
+    // },
   ],
 };
