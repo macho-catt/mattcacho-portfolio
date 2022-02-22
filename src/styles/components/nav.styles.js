@@ -1,6 +1,7 @@
 const navStyles = {
   nav: [
     'hidden',
+    'z-1',
     'lg:col-span-1',
     'lg:flex',
     'lg:flex-col',
@@ -12,7 +13,8 @@ const navStyles = {
     'lg:w-1/6',
     'lg:hover:shadow-2xl',
     'lg:h-screen',
-    'z-1',
+    'lg:border-r',
+    'lg:border-r-slate-600',
   ].join(' '),
 
   ul: [
