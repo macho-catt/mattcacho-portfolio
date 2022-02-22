@@ -11,7 +11,8 @@ function Layout({ children }) {
       <div id="root" className={layoutStyles.root}>
         <Header />
         <Nav />
-        {/* div to take the space of the fixed nav bar */}
+        {/* div to take the space of the fixed nav bar for desktop
+        and fixed header for mobile */}
         <div className={layoutStyles.placeholder} />
         <main className={layoutStyles.main}>{children}</main>
       </div>

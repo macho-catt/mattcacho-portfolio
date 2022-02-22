@@ -8,7 +8,7 @@ const layoutStyles = {
     'lg:relative',
   ].join(' '),
 
-  placeholder: ['sm:hidden', 'lg:block', 'lg:col-span-1'].join(' '),
+  placeholder: ['h-14', 'lg:col-span-1'].join(' '),
 
   main: ['flex', 'flex-col', 'place-content-center', 'lg:col-span-5'].join(' '),
 };

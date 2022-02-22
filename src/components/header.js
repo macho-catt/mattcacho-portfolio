@@ -4,7 +4,11 @@ import { headerStyles } from '../styles';
 function Header() {
   return (
     <section className={headerStyles.section}>
-      <div className={headerStyles.hamburger}>Hamburger</div>
+      <button type="button" className={headerStyles.hamburger}>
+        <span className={headerStyles.span1} />
+        <span className={headerStyles.span2} />
+        <span className={headerStyles.span3} />
+      </button>
     </section>
   );
 }

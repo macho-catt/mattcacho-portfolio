@@ -1,5 +1,6 @@
 const navStyles = {
   nav: [
+    'hidden',
     'lg:col-span-1',
     'lg:flex',
     'lg:flex-col',
