@@ -4,7 +4,7 @@ module.exports = {
   navLinks: [
     {
       name: 'Home',
-      url: '/',
+      url: '/#home',
     },
     {
       name: 'About',

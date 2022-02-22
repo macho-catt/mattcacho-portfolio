@@ -52,7 +52,7 @@ function Home() {
   // ]
   // console.log(socialsArr)
   return (
-    <section className={homeStyles.section}>
+    <section id="home" className={homeStyles.section}>
       <div className={homeStyles.container}>
         <h1 className={homeStyles.name}>{name}</h1>
         <h2 className={homeStyles.h2}>{location}</h2>

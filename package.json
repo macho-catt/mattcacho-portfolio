@@ -27,6 +27,7 @@
     "@mdx-js/react": "^1.6.22",
     "dayjs": "^1.10.7",
     "gatsby": "^4.6.1",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-image": "^2.7.0",
     "gatsby-plugin-mdx": "^3.7.0",
     "gatsby-plugin-react-helmet": "^5.7.0",
