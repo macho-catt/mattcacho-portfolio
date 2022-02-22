@@ -1,6 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { Head, Nav, Footer } from '.';
+import { Head, Header, Nav, Footer } from '.';
 import { layoutStyles } from '../styles';
 
 function Layout({ children }) {
@@ -9,6 +9,7 @@ function Layout({ children }) {
       <Head />
 
       <div id="root" className={layoutStyles.root}>
+        <Header />
         <Nav />
         {/* div to take the space of the fixed nav bar */}
         <div className={layoutStyles.placeholder} />
