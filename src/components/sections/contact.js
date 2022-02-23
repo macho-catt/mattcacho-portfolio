@@ -22,7 +22,7 @@ function Contact() {
         <h1 className={contactStyles.h1}>
           Get in touch:&nbsp;
           <a href={`mailto:${email}`} className={contactStyles.h1Link}>
-            {email}
+            email me!
           </a>
         </h1>
       </div>
