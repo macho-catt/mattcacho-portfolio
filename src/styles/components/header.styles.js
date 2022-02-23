@@ -5,10 +5,7 @@ const headerStyles = {
     'fixed',
     'top-0',
     'left-0',
-    'bg-transparent',
     'w-screen',
-    // 'h-12',
-    // '-z-1',
     'z-10',
     'lg:hidden',
   ].join(' '),
@@ -32,6 +29,14 @@ const headerStyles = {
 
   span3: ['block', 'w-8', 'h-0.5', 'bg-bumblebee'].join(' '),
 
+  opaqueHeader: [
+    'z-10',
+    'h-10',
+    'opacity-80',
+    'bg-midnightBlue',
+    // 'fixed',
+  ].join(' '),
+
   mobileNav: [
     'bg-[#394553]',
     'flex',
@@ -44,6 +49,7 @@ const headerStyles = {
     'h-screen',
     'text-center',
     'z-10',
+    'absolute',
   ].join(' '),
 
   ul: ['flex', 'flex-col', 'gap-10'].join(' '),

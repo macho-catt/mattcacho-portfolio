@@ -29,6 +29,9 @@ function Header() {
         <span className={headerStyles.span3} />
       </button>
 
+      {/* div to take the space at the top for mobile */}
+      <div className={headerStyles.opaqueHeader} />
+
       {hamClicked && (
         <nav className={headerStyles.mobileNav}>
           <ul className={headerStyles.ul}>
