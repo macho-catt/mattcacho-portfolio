@@ -38,6 +38,7 @@ function Header() {
                 onClick={handleLinkClick}
                 onKeyDown={handleLinkClick}
                 tabIndex={i}
+                key={name}
               >
                 <AnchorLink to={url} key={name}>
                   <li key={name}>{name}</li>
