@@ -18,6 +18,14 @@ module.exports = {
       `gatsby-transformer-sharp`,
       `gatsby-plugin-anchor-links`,
       {
+        resolve: `gatsby-plugin-react-svg`,
+        options: {
+          rule: {
+            include: `${__dirname}/content/images/socials`
+          }
+        }
+      },
+      {
         resolve: `gatsby-source-filesystem`,
         options: {
           name: `sections`,

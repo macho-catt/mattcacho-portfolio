@@ -5,6 +5,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
 import { panelStyles } from '../styles';
 
+// For styling the bullet points in the MDX body
 const components = {
   li: (props) => <li {...props} className={panelStyles.liBullet} />,
 };

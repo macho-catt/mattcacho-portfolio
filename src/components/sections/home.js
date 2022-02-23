@@ -2,6 +2,9 @@ import * as React from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { useStaticQuery, graphql } from 'gatsby';
 import { homeStyles } from '../../styles';
+import GithubIcon from '/content/images/socials/github.svg';
+import LinkedinIcon from '/content/images/socials/linkedin.svg';
+import TwitterIcon from '/content/images/socials/twitter.svg';
 
 function Home() {
   const query = graphql`
@@ -18,39 +21,41 @@ function Home() {
       socials: mdx(slug: { regex: "/socials/" }) {
         frontmatter {
           twitter
-          twitter_icon
-          email
           github
-          github_icon
           linkedin
-          linkedin_icon
         }
       }
     }
   `;
 
-  const { home } = useStaticQuery(query);
+  const { home, socials } = useStaticQuery(query);
 
   const { frontmatter, body } = home;
   const { name, location } = frontmatter;
+  const socialList = Object.entries(socials.frontmatter);
+  const socialsArr = [];
 
-  // const {
-  //   twitter,
-  //   twitter_icon,
-  //   email,
-  //   github,
-  //   github_icon,
-  //   linkedin,
-  //   linkedin_icon,
-  // } = socials.frontmatter
+  const linkSocial = (social) => {
+    switch (social) {
+      case 'github':
+        return <GithubIcon className={homeStyles.svgIcon} />;
+      case 'linkedin':
+        return <LinkedinIcon className={homeStyles.svgIcon} />;
+      case 'twitter':
+        return <TwitterIcon className={homeStyles.svgIcon} />;
+      default:
+        return null;
+    }
+  };
 
-  // const socialsArr = [
-  //   {
-  //     social: github,
-  //     icon: github_icon
-  //   }
-  // ]
-  // console.log(socialsArr)
+  socialList.forEach(([social, link]) => {
+    socialsArr.push({
+      social,
+      link,
+      component: linkSocial(social),
+    });
+  });
+
   return (
     <section id="home" className={homeStyles.section}>
       <div className={homeStyles.container}>
@@ -58,15 +63,20 @@ function Home() {
         <h2 className={homeStyles.h2}>{location}</h2>
         <MDXRenderer>{body}</MDXRenderer>
 
-        {/* <ul>
-          {
-            socialsArr.map(({ social, icon }, i) =>(
-              <li key={i}>
-                <img src={ icon } />
-              </li>
-            ))
-          }
-        </ul> */}
+        <ul className={homeStyles.ul}>
+          {socialsArr.map(({ social, link, component }) => (
+            <li key={social}>
+              <a
+                href={link}
+                key={social}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {component}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
