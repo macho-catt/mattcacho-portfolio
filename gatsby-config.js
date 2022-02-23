@@ -3,8 +3,8 @@ const config= require('./src/config')
 module.exports = {
     siteMetadata: {
       title: `Matt Cacho`,
-      titleTemplate: `%s - A website`,
-      description: `Matt Cacho is a software engineer.`,
+      titleTemplate: `%s's website`,
+      description: `This is Matt Cacho's portfolio website.`,
       image: `/home.png`,
       siteUrl: `https://www.mattcacho.com`,
       twitterUsername: `@MattCacho`
