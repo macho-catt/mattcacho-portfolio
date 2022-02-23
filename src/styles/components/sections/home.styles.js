@@ -16,7 +16,7 @@ const homeStyles = {
     'justify-center',
     'h-2/3',
     'text-center',
-    'mx-6',
+    'mx-10',
     'gap-10',
     'lg:justify-evenly',
     'lg:h-1/3',
