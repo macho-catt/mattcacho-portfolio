@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmattcacho_portfolio=self.webpackChunkmattcacho_portfolio||[]).push([[883],{429:function(e,t,a){a.r(t);var c=a(7294),n=a(1597),o=a(4995),l=a(4530);t.default=function(){return c.createElement(o.Ar,{pageTitle:"Matt Cacho"},c.createElement("section",{className:l.Jw.section},c.createElement("h1",{className:l.Jw.h1},"404 not found"),c.createElement(n.Link,{to:"/",className:l.Jw.link},c.createElement("h2",{className:l.Jw.h2},"Back to Home"))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-fdc84606ed8af0e9f71f.js.map
