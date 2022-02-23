@@ -1,22 +1,23 @@
 const expStyles = {
   section: [
-    'lg:flex',
-    'lg:flex-col',
-    'lg:justify-center',
-    'lg:content-center',
-    'lg:w-full',
     'box-border',
+    'flex',
+    'flex-col',
+    'place-content-center',
+    'lg:w-full',
+    'py-12',
+    'lg:pt-0',
+    'lg:pb-0',
   ].join(' '),
 
   container: [
-    'lg:flex',
-    'lg:flex-col',
-    'lg:justify-evenly',
-    // 'lg:w-1/3',
-    // 'lg:h-1/3',
-    'lg:gap-6',
+    'flex',
+    'flex-col',
+    'justify-evenly',
+    'gap-5',
+    'mx-10',
+    'lg:mr-0',
     'lg:ml-10',
-    // 'bg-blue-500'
   ].join(' '),
 };
 
