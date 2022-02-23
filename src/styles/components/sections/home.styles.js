@@ -37,7 +37,7 @@ const homeStyles = {
     'lg:gap-10',
   ].join(' '),
 
-  svgIcon: ['fill-blue-100', 'hover:fill-blue-500'].join(' '),
+  svgIcon: ['fill-blue-100', 'lg:hover:fill-blue-500'].join(' '),
 };
 
 export default homeStyles;
