@@ -18,11 +18,11 @@ const navStyles = {
   ].join(' '),
 
   ul: [
+    'text-center',
     'lg:flex',
     'lg:flex-col',
     'lg:justify-center',
     'lg:gap-5',
-    'text-center',
   ].join(' '),
 
   liLink: ['hover:text-midnightBlue', 'hover:bg-white'].join(' '),

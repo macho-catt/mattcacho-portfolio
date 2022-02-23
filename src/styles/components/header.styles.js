@@ -29,13 +29,7 @@ const headerStyles = {
 
   span3: ['block', 'w-8', 'h-0.5', 'bg-bumblebee'].join(' '),
 
-  opaqueHeader: [
-    'z-10',
-    'h-10',
-    'opacity-80',
-    'bg-midnightBlue',
-    // 'fixed',
-  ].join(' '),
+  opaqueHeader: ['z-10', 'h-10', 'opacity-80', 'bg-midnightBlue'].join(' '),
 
   mobileNav: [
     'bg-[#394553]',

@@ -1,27 +1,33 @@
 const homeStyles = {
   section: [
-    'lg:flex',
-    'lg:flex-col',
-    'lg:justify-center',
-    'lg:content-center',
-    'lg:h-screen',
-    'lg:w-full',
     'box-border',
+    'flex',
+    'flex-col',
+    // 'justify-center',
+    // 'content-center',
+    'place-content-center',
+    'h-screen',
+    'w-full',
+    '-mt-10',
+    'lg:mt-0',
   ].join(' '),
 
   container: [
-    'lg:flex',
-    'lg:flex-col',
-    'lg:justify-evenly',
-    // 'lg:w-1/3',
-    'lg:h-1/3',
+    'flex',
+    'flex-col',
+    'justify-evenly',
+    'h-1/3',
+    'text-center',
+    'mx-6',
     'lg:ml-10',
+    'lg:mr-0',
+    'lg:text-left',
     // 'bg-blue-500'
   ].join(' '),
 
-  name: ['lg:text-8xl'].join(' '),
+  name: ['text-4xl', 'lg:text-8xl'].join(' '),
 
-  h2: ['lg:text-3xl', 'text-bumblebee'].join(' '),
+  h2: ['text-bumblebee', 'text-xl', 'lg:text-3xl'].join(' '),
 };
 
 export default homeStyles;
