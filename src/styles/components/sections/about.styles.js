@@ -29,9 +29,12 @@ const aboutStyles = {
     ' '
   ),
 
-  img: ['lg:grayscale', 'hover:grayscale-0', 'max-h-full', 'max-w-full'].join(
-    ' '
-  ),
+  img: [
+    'lg:grayscale',
+    'hover:grayscale-0',
+    'lg:max-h-full',
+    'lg:max-w-full',
+  ].join(' '),
 };
 
 export default aboutStyles;
