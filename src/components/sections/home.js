@@ -2,7 +2,7 @@ import * as React from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { useStaticQuery, graphql } from 'gatsby';
 import { homeStyles } from '../../styles';
-import { Resume } from "..";
+import { Resume } from '..';
 import GithubIcon from '/content/images/svg/github.svg';
 import LinkedinIcon from '/content/images/svg/linkedin.svg';
 import TwitterIcon from '/content/images/svg/twitter.svg';
