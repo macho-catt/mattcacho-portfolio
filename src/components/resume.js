@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { resumeStyles } from '../styles';
+import ResumeIcon from '/content/images/svg/resume.svg';
 
 function Resume() {
   return (
@@ -7,9 +8,9 @@ function Resume() {
       href="/MattCachoResume.pdf"
       target="_blank"
       rel="noopener noreferrer"
-      className={resumeStyles.resume}
+      // className={resumeStyles.resume}
     >
-      Resume
+      <ResumeIcon className={resumeStyles.icon} />
     </a>
   );
 }

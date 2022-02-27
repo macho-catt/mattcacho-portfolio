@@ -2,7 +2,6 @@ import * as React from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { navLinks } from '../config';
 import { navStyles } from '../styles';
-import { Resume } from '.';
 
 function Nav() {
   return (
@@ -14,7 +13,6 @@ function Nav() {
           </AnchorLink>
         ))}
       </ul>
-      <Resume />
     </nav>
   );
 }

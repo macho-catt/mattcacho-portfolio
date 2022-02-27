@@ -2,9 +2,10 @@ import * as React from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { useStaticQuery, graphql } from 'gatsby';
 import { homeStyles } from '../../styles';
-import GithubIcon from '/content/images/socials/github.svg';
-import LinkedinIcon from '/content/images/socials/linkedin.svg';
-import TwitterIcon from '/content/images/socials/twitter.svg';
+import { Resume } from "..";
+import GithubIcon from '/content/images/svg/github.svg';
+import LinkedinIcon from '/content/images/svg/linkedin.svg';
+import TwitterIcon from '/content/images/svg/twitter.svg';
 
 function Home() {
   const query = graphql`
@@ -76,6 +77,9 @@ function Home() {
               </a>
             </li>
           ))}
+          <li key="Resume">
+            <Resume />
+          </li>
         </ul>
       </div>
     </section>

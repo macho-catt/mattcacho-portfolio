@@ -21,7 +21,7 @@ module.exports = {
         resolve: `gatsby-plugin-react-svg`,
         options: {
           rule: {
-            include: `${__dirname}/content/images/socials`
+            include: `${__dirname}/content/images/svg`
           }
         }
       },
