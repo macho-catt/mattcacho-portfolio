@@ -29,9 +29,24 @@ const contactStyles = {
     'lg:text-6xl',
   ].join(' '),
 
-  h1Link: ['text-bumblebee', 'lg:text-white', 'lg:hover:text-bumblebee'].join(
-    ' '
-  ),
+  h1Link: [
+    'h-12',
+    'w-12',
+    'border',
+    'rounded-lg',
+    'py-2',
+    'px-6',
+    'text-bumblebee',
+    'border-bumblebee',
+    'lg:hover:text-midnightBlue',
+    'lg:hover:border-midnightBlue',
+    'lg:hover:bg-bumblebee',
+    'lg:hover:shadow-md',
+    'lg:hover:shadow-amber-900',
+    // 'text-bumblebee',
+    // 'lg:text-white',
+    // 'lg:hover:text-bumblebee'
+  ].join(' '),
 };
 
 export default contactStyles;
