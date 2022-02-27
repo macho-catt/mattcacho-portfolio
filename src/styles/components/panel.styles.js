@@ -5,7 +5,7 @@ const panelStyles = {
 
   ul: ['flex', 'flex-col', 'gap-4', 'lg:gap-10'].join(' '),
 
-  li: ['flex', 'flex-col', 'gap-1', 'lg:flex-row', 'lg:gap-2'].join(' '),
+  li: ['flex', 'flex-col', 'gap-1', 'lg:flex-row', 'lg:gap-10'].join(' '),
 
   liHeader: ['lg:w-32'].join(' '),
 
