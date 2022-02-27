@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { headerStyles } from '../styles';
 import { navLinks } from '../config';
-import { Resume } from '.';
 
 function Header() {
   const [hamClicked, setHamClicked] = useState(false);
@@ -49,7 +48,6 @@ function Header() {
               </span>
             ))}
           </ul>
-          <Resume />
         </nav>
       )}
     </section>
