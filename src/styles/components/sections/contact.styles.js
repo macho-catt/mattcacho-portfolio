@@ -43,9 +43,6 @@ const contactStyles = {
     'lg:hover:bg-bumblebee',
     'lg:hover:shadow-md',
     'lg:hover:shadow-amber-900',
-    // 'text-bumblebee',
-    // 'lg:text-white',
-    // 'lg:hover:text-bumblebee'
   ].join(' '),
 };
 
