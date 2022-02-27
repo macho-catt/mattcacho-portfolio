@@ -4,6 +4,8 @@ import * as Dayjs from 'dayjs';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
 import { panelStyles } from '../styles';
+import LiveIcon from '/content/images/svg/live.svg';
+import GithubIcon from '/content/images/svg/github.svg';
 
 // For styling the bullet points in the MDX body
 const components = {
@@ -20,6 +22,28 @@ function Panel({ title, workExpArr }) {
           <li key={node.id} className={panelStyles.li}>
             <div className={panelStyles.liHeader}>
               <h3 className={panelStyles.h3}>{node.frontmatter.org}</h3>
+              <div className={panelStyles.iconLinks}>
+                {node.frontmatter.github && (
+                  <a
+                    href={node.frontmatter.github}
+                    key="GitHub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <GithubIcon className={panelStyles.svgIcon} />
+                  </a>
+                )}
+                {node.frontmatter.live && (
+                  <a
+                    href={node.frontmatter.live}
+                    key="Live"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <LiveIcon className={panelStyles.svgIcon} />
+                  </a>
+                )}
+              </div>
             </div>
 
             <div className={panelStyles.liBody}>

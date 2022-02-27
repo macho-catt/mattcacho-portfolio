@@ -15,6 +15,8 @@ function Experience() {
             start
             end
             status
+            live
+            github
           }
           body
           id
