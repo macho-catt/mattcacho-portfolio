@@ -1,0 +1,14 @@
+---
+title: 'tote'
+url: 'https://tote.vercel.app/'
+techStack: 'Next.js, Tailwinds'
+github: 'https://github.com/macho-catt/tote'
+---
+
+Tote (time + quote) displays a changing color background based on the current time
+of the day. Each minute, the app displays a new quote.
+
+This app takes advantage of the SSR (server side rendering) feature of Next.js, where
+each visit to the page makes an API request to zenquotes.io to retrieve a list
+of fifty quotes to cycle from. When the cycle is finished, a new API request is made
+to refresh the list.
