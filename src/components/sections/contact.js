@@ -19,8 +19,8 @@ function Contact() {
   return (
     <section id="contact" className={contactStyles.section}>
       <div className={contactStyles.container}>
-        <h1 className={contactStyles.h1}>
-          Get in touch:&nbsp;
+        <h1 className={contactStyles.h1}>Get in touch:&nbsp;</h1>
+        <h1>
           <a href={`mailto:${email}`} className={contactStyles.h1Link}>
             email me!
           </a>

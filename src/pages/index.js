@@ -5,6 +5,7 @@ import {
   About,
   Skills,
   Experience,
+  Projects,
   Contact,
 } from '../components';
 
@@ -15,7 +16,7 @@ function IndexPage() {
       <About />
       <Skills />
       <Experience />
-      {/* <h2>portfolio / projects</h2> */}
+      <Projects />
       {/* <h2>misc</h2> */}
       <Contact />
     </Layout>

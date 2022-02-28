@@ -13,8 +13,11 @@ const contactStyles = {
   container: [
     'flex',
     'flex-col',
-    'justify-evenly',
+    'text-center',
     'mx-10',
+    'gap-6',
+    'lg:flex-row',
+    'lg:place-items-center',
     'lg:mr-0',
     'lg:ml-10',
     'lg:h-1/3',
@@ -22,7 +25,7 @@ const contactStyles = {
 
   h1: [
     'text-center',
-    'text-3xl',
+    'text-4xl',
     'break-normal',
     'md:text-5xl',
     'lg:text-left',
@@ -38,6 +41,8 @@ const contactStyles = {
     'px-6',
     'text-bumblebee',
     'border-bumblebee',
+    'text-xl',
+    'lg:text-6xl',
     'lg:hover:text-midnightBlue',
     'lg:hover:border-midnightBlue',
     'lg:hover:bg-bumblebee',

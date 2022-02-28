@@ -7,7 +7,7 @@ const expStyles = {
     'lg:w-full',
     'py-12',
     'lg:pt-0',
-    'lg:pb-0',
+    // 'lg:pb-0',
   ].join(' '),
 
   container: [

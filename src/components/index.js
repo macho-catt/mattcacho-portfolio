@@ -11,3 +11,4 @@ export { default as Projects } from './sections/projects';
 export { default as Contact } from './sections/contact';
 export { default as Panel } from './panel';
 export { default as Resume } from './resume';
+export { default as ProjectCard } from './projectcard';

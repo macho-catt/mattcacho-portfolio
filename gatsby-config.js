@@ -52,6 +52,13 @@ module.exports = {
           name: `experience`,
           path: `${__dirname}/static`
         }
+      },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `projects`,
+          path: `${__dirname}/content/sections/projects`
+        }
       }
     ]
 }
