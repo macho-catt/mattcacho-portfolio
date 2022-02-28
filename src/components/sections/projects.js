@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { projStyles } from '../../styles';
-import { ProjectCard } from "..";
+import { ProjectCard } from '..';
 
 function Projects() {
   const query = graphql`

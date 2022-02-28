@@ -7,7 +7,8 @@ function Footer() {
       <a
         href="https://github.com/macho-catt/mattcacho-portfolio"
         target="_blank"
-        className={footerStyles.footerLink} rel="noreferrer"
+        className={footerStyles.footerLink}
+        rel="noreferrer"
       >
         <div>Designed and built by Matt Cacho using GatsbyJS</div>
       </a>
