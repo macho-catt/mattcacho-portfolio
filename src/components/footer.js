@@ -11,7 +11,7 @@ function Footer() {
         target="_blank"
         className={footerStyles.footerLink}
       >
-        <div>Designed and built by Matt Cacho</div>
+        <div>Designed and built by Matt Cacho using GatsbyJS</div>
       </Link>
       {/* </div> */}
     </footer>
