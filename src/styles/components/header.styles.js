@@ -11,8 +11,9 @@ const headerStyles = {
   ].join(' '),
 
   hamburger: [
-    'place-self-end',
+    'self-end',
     'mr-4',
+    'mt-4',
     'h-10',
     'w-10',
     'absolute',
@@ -29,7 +30,7 @@ const headerStyles = {
 
   span3: ['block', 'w-8', 'h-0.5', 'bg-bumblebee'].join(' '),
 
-  opaqueHeader: ['z-10', 'h-10', 'opacity-80', 'bg-midnightBlue'].join(' '),
+  opaqueHeader: ['z-10', 'h-16', 'opacity-80', 'bg-midnightBlue'].join(' '),
 
   mobileNav: [
     'bg-[#394553]',
