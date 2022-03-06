@@ -22,7 +22,7 @@ const projStyles = {
 
   h2: ['text-3xl', 'text-bumblebee', 'text-center', 'lg:text-left'].join(' '),
 
-  body: ['flex', 'flex-row', 'flex-wrap', 'place-content-center'].join(' '),
+  body: ['flex', 'flex-row', 'flex-wrap', 'place-content-start'].join(' '),
 };
 
 export default projStyles;
