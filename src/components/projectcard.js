@@ -34,7 +34,7 @@ function ProjectCard({ node }) {
         </div>
       </div>
 
-      <div>
+      <div className={projCardStyles.textBody}>
         <MDXRenderer>{node.body}</MDXRenderer>
       </div>
     </div>

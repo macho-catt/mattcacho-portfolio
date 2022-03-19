@@ -11,7 +11,7 @@ const projCardStyles = {
     'gap-10',
     'text-slate-400',
     'w-96',
-    'lg:h-96',
+    // 'lg:h-96',
   ].join(' '),
 
   header: ['flex', 'flex-col', 'text-white'].join(' '),
@@ -30,6 +30,8 @@ const projCardStyles = {
   iconLinks: ['flex', 'flex-row', 'gap-2', 'place-content-evenly'].join(' '),
 
   svgIcon: ['h-8', 'w-8', 'fill-slate-400', 'lg:hover:fill-white'].join(' '),
+
+  textBody: ['leading-relaxed'].join(' '),
 };
 
 export default projCardStyles;
