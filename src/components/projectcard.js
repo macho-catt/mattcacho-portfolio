@@ -15,7 +15,7 @@ function ProjectCard({ node }) {
           <div className={projCardStyles.iconLinks}>
             <a
               href={node.frontmatter.github}
-              key="GitHub"
+              key={`GitHub.${node.id}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@ function ProjectCard({ node }) {
 
             <a
               href={node.frontmatter.url}
-              key="GitHub"
+              key={`Live.${node.id}`}
               target="_blank"
               rel="noopener noreferrer"
             >

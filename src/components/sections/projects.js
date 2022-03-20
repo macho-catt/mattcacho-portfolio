@@ -13,6 +13,7 @@ function Projects() {
             url
             techStack
             github
+            order
           }
           body
           id
@@ -30,9 +31,14 @@ function Projects() {
         <h2 className={projStyles.h2}>Projects</h2>
 
         <div className={projStyles.body}>
-          {nodes.map((node) => (
-            <ProjectCard id={node.id} node={node} />
-          ))}
+          {nodes
+            .map((node) => (
+              <ProjectCard id={node.id} node={node} key={node.id} />
+            ))
+            .sort(
+              (a, b) =>
+                b.props.node.frontmatter.order - a.props.node.frontmatter.order
+            )}
         </div>
       </div>
     </section>

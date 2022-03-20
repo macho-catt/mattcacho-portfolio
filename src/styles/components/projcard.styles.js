@@ -8,7 +8,7 @@ const projCardStyles = {
     'border-black',
     'px-4',
     'py-4',
-    'gap-10',
+    'gap-2',
     'text-slate-400',
     'w-96',
     // 'lg:h-96',
